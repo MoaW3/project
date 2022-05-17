@@ -94,6 +94,14 @@ dd {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
 } /*JAVASCRIPT MENU ICON END*/
+@media screen and (max-width: 500px) {
+  li {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 600px) {
   img {
     display: none;
@@ -113,13 +121,5 @@ dd {
   }
   h3 {
     font-size: 25px;
-  }
-}
-@media screen and (max-width: 500px) {
-  li {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: center;
   }
 }
